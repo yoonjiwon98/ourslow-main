@@ -1,0 +1,338 @@
+
+
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+
+.nav li a{font-family: 'GmarketSansMedium'; font-size: 20px;}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header{width: 1320px; height: 120px; margin: 0 auto;}
+.logo{float: left; padding: 27px 0; width: 226px; box-sizing: border-box;
+margin-right: 108px;}
+
+
+
+.nav li{float: left;}
+.nav li a{display: block;padding: 47px 50px; margin: 0 auto; color: rgb(56, 56, 56);}
+.nav li a:hover{color: #ed8d85;}
+/* .nav li:nth-child(1) a{padding-left:158px;}
+.nav li:nth-child(4) a{padding-right:158px;} */
+
+
+.icon li{float:left; padding: 48px 0 47px 15px;}
+.icon li:nth-child(1){padding-left:108px;}
+.icon li a{opacity: 0.5;}
+.icon li a:hover{opacity: 1;}
+
+/*-------------------------------------- 헤더 끝*/
+
+#banner{width: 100%;
+     /* height: 830px; */
+    }
+#banner img{width:100%; }
+
+
+/*--------------------------------------메인배너 끝*/
+
+
+
+#allproduct{width: 1320px; margin: 200px auto; height: 833px;}
+
+.name{text-align: center; height: 102px;}
+.name h2{font-size: 25px;
+    font-family: 'GmarketSansBold';color: #365418;}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.name p{font-size: 13px; font-family: 'Noto Sans KR'; padding-bottom: 40px;}
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.left{width: 660px; height: 730px; float: left; position: relative;}
+.number1 p{color: #21400e; font-family: 'GmarketSansBold'; font-size: 58px;
+    padding: 10px 0; }
+.number1{background-color: #fff; text-align: center;
+    border-radius: 50%; width: 92px; height: 92px; padding: 7px 0;
+    box-sizing: border-box; position: absolute; left: 30px; top: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+.right{width: 660px; height:730px; background-color: #fffbdb;
+float: right; box-sizing: border-box; position: relative;}
+
+.right h1{font-family: 'GmarketSansBold'; font-size: 30px; padding: 68px 0 6px 40px;
+color: #21400e;}
+.text{font-family: 'GmarketSansMedium'; font-size: 16px; color: #21400e; 
+    padding-left: 40px; padding-bottom: 68px;}
+
+.bestimg23 li{float: left; margin-left: 30px;
+    width: 285px; position: relative;}
+
+.green{font-family: 'Noto Sans KR'; font-size: 13px; 
+    font-weight: 500; padding-top: 12px; color: #839681;}
+.bestname{font-family: 'Noto Sans KR';
+    font-weight: 600;
+    font-size: 16px; padding-bottom: 12px;}
+
+.big{font-family: 'Noto Sans KR'; font-weight: 600; font-size: 25px;}
+
+.number23{width: 50px; height: 50px; font-size: 27px;
+font-family: 'GmarketSansBold'; color: #fff; 
+background-color: #21400e; border-radius: 50%; text-align: center;
+padding: 10px; box-sizing: border-box; position: absolute;
+top: -20px; left: -20px;}
+
+.button1{display: block; width: 170px; height: 35px; border-radius: 17.5px;
+font-family: 'GmarketSansMedium'; font-size: 14px;text-align: center;
+background-color: #fffbdb; border: 2px solid #21400e; color: #21400e;
+position: absolute; top: 660px; right: 30px; box-sizing: border-box; padding: 6px 0;}
+
+.button1:hover{background-color: #21400e; color: #fff;}
+
+/*--------------------------------------베스트아이템 끝*/
+
+
+
+
+#newitem{width: 1320px; height: 720px; margin: 0 auto;
+    position: relative;}
+
+
+#newitem h1{width: 230px; height: 67px; background-color: #edb0a0;
+color: #21400e; font-family: 'GmarketSansBold'; font-size: 30px;
+text-align: center; padding: 10px 0; box-sizing: border-box;}
+.sg{font-size: 20px; font-family: 'GmarketSansMedium'; color: #333333;
+    padding: 47px 0 10px;}
+
+.newname{font-family: 'GmarketSansMedium'; font-size: 40px; color: #65834c;
+        padding-bottom: 10px;}
+span{font-size: 20px; font-family: 'GmarketSansMedium'; color: #65834c; }
+
+.newtext{font-size: 13px; font-family: 'GmarketSansMedium';
+        color: #333333;}
+
+
+.newimg1{position: absolute; top: 0; right: 0;}
+.newimg2{position: absolute; left: 0; bottom: 0;}
+.newbutton{display: block; width: 170px; height: 35px; color: #000;
+    border:none; font-family: 'GmarketSansMedium';
+    font-size: 14px; background-color: #f6d4c8; text-align: center;
+    border-radius: 17.5px; position: absolute; top: 684px; right: 0; padding: 6px 0; box-sizing: border-box;}
+
+.newbutton:hover{background-color: #edb0a0; color: #fff;}
+
+
+
+/*--------------------------------------뉴아이템 끝*/
+
+
+#ourslowstory{background: url(images/backbrand.png) no-repeat;width: 100%; height: 1787px; margin: 200px 0;}
+
+.story{margin: 0 auto; width: 1320px; height: 760px; position: relative;}
+.stleft{float: left;}
+.story h1{font-size:50px;  color:#2c4915; font-family: 'GmarketSansBold'; padding-top: 200px; line-height: 40px;
+} 
+.story h2{font-size:30px;  color:#65834c; font-family: 'GmarketSansBold';}
+.story p{font-size:17px;  color:#ffffff; font-family: 'GmarketSansMedium'; padding-top: 60px;}
+
+.bandbutton{display: block; width: 170px; height: 35px; color: #21400e;
+    border: 2px solid #21400e; font-family: 'GmarketSansMedium';
+    font-size: 14px; background-color: #edb0a0; border-radius: 17.5px;
+    box-sizing: border-box; text-align: center; padding: 6px 0; margin: 60px 0;}
+
+
+
+
+    .bandbutton:hover{background-color: #21400e; color: #fff;}
+
+    .stright{float: right;}
+
+
+
+.bbn{width: 100%; height: 75px;}
+.brandbox{width: 1320px; margin: 150px auto;}
+.brandbox h1{width: 60px; height: 60px; border-radius: 40px; background-color: #ffffff;
+    text-align: center; color: red; font-family:'GmarketSansBold' ; font-size: 56px; float: left; margin-right: 15px;}
+.brandbox h2{font-size:30px;  color:#21400e; font-family: 'GmarketSansMedium'; float: left; padding: 12px 15px 12px 0;}
+.brandbox .bbtext{font-size:20px;  color:#ffffff; font-family: 'GmarketSansMedium'; float: left; padding: 15px 0;}
+
+
+.box1234{width: 100%; height:446px;}
+.box1234 li{float: left; text-align: center; padding: 30px; box-sizing: border-box;}
+.box1234 li:nth-child(1){width: 25%; height: 446px; background-color: #ffffff; z-index: 99;}
+.box1234 li:nth-child(2){width: 25%; height: 446px; background-color: #efefef; z-index: 99;}
+.box1234 li:nth-child(3){width: 25%; height: 446px; background-color: #ffffff; z-index: 99;}
+.box1234 li:nth-child(4){width: 25%; height: 446px; background-color: #efefef; z-index: 99;}
+
+
+
+.box1234 li .bbbig{font-size:116px;  color:#ca5033; font-family: 'GmarketSansMedium';padding: 30px 0px 10px;}
+.box1234 li .bbname{font-size:20px;  color:#ca5033; font-family: 'GmarketSansMedium';}
+.box1234 li .hr{width: 100%; height: 8px; background-color: #efefef; margin: 15px 0 20px;}
+.box1234 li .boxtext{font-size:13px;  color:#505050; font-family: 'GmarketSansMedium';}
+
+
+.box1234 li .bbbig2{font-size:116px;  color:#9a3b25; font-family: 'GmarketSansMedium';padding: 30px 0px 10px;}
+.box1234 li .bbname2{font-size:20px;  color:#9a3b25; font-family: 'GmarketSansMedium';}
+.box1234 li .hr2{width: 100%; height: 8px; background-color: #ffffff; margin: 15px 0 20px;}
+.box1234 li .boxtext2{font-size:13px;  color:#505050; font-family: 'GmarketSansMedium';}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------아워슬로우스토리 끝*/
+
+
+#promotion{width: 1320px; margin:200px auto; text-align: center;}
+#promotion a img{width: 1320px;}
+#promotion h2{font-size: 25px;
+    font-family: 'GmarketSansBold';color: #365418;}
+
+#promotion p{font-size: 13px; font-family: 'Noto Sans KR'; padding-bottom: 40px;}
+
+
+.review{width: 1320px; margin:0 auto; text-align: center;
+    height: 365px;}
+
+.rv{display: block; float: left;}
+.rvname{padding-bottom: 25px;}
+
+
+
+
+#footer{width: 100%; height: 300px; background-color: #eea9a3;
+        margin-top: 200px;}
+.footerinner{width: 1320px; margin: 0 auto; padding-top: 50px;}
+
+.box1{width: 644px; height: 203px; 
+    float: left; border-right: 1px solid #ce766e;}
+.ftlink{width: 100%; height:78px;}
+.ftlink li{float: left; padding-right: 63px;}
+.ftlink li a{display: block; color: #000;
+    font-family: 'Noto Sans KR'; font-size: 15px;
+    font-weight:700; padding: 28px 0;}
+.box1 p{font-size: 13px; font-family: 'Noto Sans KR';
+        color: #000; padding-bottom: 17px; font-weight: 500;}
+
+
+
+.box2{width:434px; height: 203px; float: left; border-right: 1px solid #ce766e;}
+.box2inner{width: 300px; height: 203px; margin: 0 auto;}
+.box2inner h3{font-size: 15px; font-family: 'Noto Sans KR';
+font-weight: 700; padding: 28px 0 12px; color: #000;}
+.box2inner h1{font-size: 20px; font-family: 'Noto Sans KR';
+            font-weight: 700; padding-bottom: 12px;}
+.box2inner p{font-size: 13px; font-family: 'Noto Sans KR'; font-weight: 400;
+            }
+
+
+
+
+.box3{width: 235px; height: 203px; float: left;}
+.fticon{float: right; padding-top:30px;}
+.fticon img{display: block; padding-left: 15px; float: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
